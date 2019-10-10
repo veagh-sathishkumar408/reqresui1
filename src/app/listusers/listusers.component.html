@@ -1,0 +1,14 @@
+<table class="listUsers" *ngIf=shows>
+    <th>id</th>
+    <th>email</th>
+    <th>first_name</th>
+    <th>last_name</th>
+    <th>avatar</th>
+    <tr *ngFor="let show of shows.data">
+        <td >{{show.id}}</td>
+        <td >{{show.email}}</td>
+        <td>{{show.first_name}}</td>
+        <td>{{show.last_name}}</td>
+        <td>{{show.avatar}}</td>
+    </tr>
+</table>

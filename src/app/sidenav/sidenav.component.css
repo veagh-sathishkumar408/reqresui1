@@ -1,0 +1,24 @@
+.page{
+    color: white;
+    background-color: darkslategray;
+  
+}
+.web-page{
+    font-family: cursive;
+    padding:5px ;
+    display: flex;
+    justify-content: space-between; 
+    width:30%;
+   
+}
+.new-tabs{
+   
+height: 550px;
+    
+}
+.new-tabs a{
+    color:white;
+}
+.new-tabs li{
+    color:white;
+}

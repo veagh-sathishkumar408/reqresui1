@@ -1,0 +1,8 @@
+.footer{
+    border: 1px solid;
+    height: 8%;
+    text-align: end;
+    font-size: 25px;
+    color: white;
+    background-color: darkslategray;
+}

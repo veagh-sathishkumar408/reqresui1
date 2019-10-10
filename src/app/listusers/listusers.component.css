@@ -1,0 +1,29 @@
+.listUsers{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .listUsers tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .listUsers tr:nth-child(even)
+  {
+      background-color: #f2f2f2;
+  }
+  .listUsers td:hover {
+      background-color: #ddd;
+    }
+  .listUsers th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:darkslategray;
+    color: white;
+  }
+  
+.listUsers td, .listUsers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
